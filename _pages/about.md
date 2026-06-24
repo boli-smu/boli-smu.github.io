@@ -16,8 +16,8 @@ redirect_from:
 </div>
 
 <ul class="stats">
-  <li><span class="num" data-count="50">0</span><span class="lab">Publications</span></li>
-  <li><span class="num" data-count="34">0</span><span class="lab">Journal Articles</span></li>
+  <li><span class="num" data-count="49">0</span><span class="lab">Publications</span></li>
+  <li><span class="num" data-count="33">0</span><span class="lab">Journal Articles</span></li>
   <li><span class="num" data-count="14">0</span><span class="lab">Conference Papers</span></li>
   <li><span class="num" data-count="2">0</span><span class="lab">Books</span></li>
 </ul>

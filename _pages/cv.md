@@ -19,7 +19,7 @@ Education
 
 Work experience
 ======
-* Associate Professor, Institute of Logistics Science and Engineering, Shanghai Maritime University (SMU)
+* Professor, Institute of Logistics Science and Engineering, Shanghai Maritime University (SMU)
 
 Research Interests
 ======

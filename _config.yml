@@ -13,10 +13,10 @@ title                    : "Bo Li (李波)"
 title_separator          : "-"
 name                     : &name "Bo Li"
 description              : &description "Academic homepage of Bo Li (李波), Associate Professor at Shanghai Maritime University"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://dongxy233.github.io"
+url                      : "https://boli-smu.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "dongxy233/dongxy233.github.io"
+repository               : "boli-smu/boli-smu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

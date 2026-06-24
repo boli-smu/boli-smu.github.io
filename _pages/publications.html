@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}{% continue %}{% endif %}
+      {% unless title_shown %}<h2>{{ category[1].title }}</h2><hr />{% assign title_shown = true %}{% endunless %}
+      <div class="list__item">
+        <article class="archive__item">
+          <h2 class="archive__item-title" style="margin-top:0">{{ post.title }}</h2>
+          {% if post.venue %}<p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>{% endif %}
+          {% if post.citation %}<p class="archive__item-excerpt">Recommended citation: {{ post.citation }}</p>{% endif %}
+          {% if post.paperurl %}<p><a href="{{ post.paperurl }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download Paper</a></p>{% endif %}
+        </article>
+      </div>
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}{% include archive-single.html %}{% endfor %}
+{% endif %}

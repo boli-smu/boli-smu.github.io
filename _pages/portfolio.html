@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Projects"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign projects = site.portfolio | sort: 'date' | reverse %}
+{% for post in projects %}
+  <div class="list__item project-card">
+    <article class="archive__item">
+      <h2 class="archive__item-title" style="margin-top:0.2em">
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.date %}
+      <p class="page__meta"><i class="far fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+      {{ post.content }}
+    </article>
+  </div>
+{% endfor %}

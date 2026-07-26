@@ -24,3 +24,8 @@ package-lock.json
 
 # local-only dev config
 _config_dev.yml
+
+# Car-like vehicle project: kept locally, unpublished online (paper being resubmitted)
+_portfolio/2022-09-14-rl-oc.md
+files/RL-OC-QCar-2022.mp4
+images/rloc.jpg
